@@ -1,0 +1,141 @@
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;    
+}
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-div{
+    width: 25rem;
+    height: 60rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    overflow:auto;
+}
+.main-div img{
+    width: 100%;
+    border-radius: 0.8rem;
+}
+.main-div h1{
+    font-size: 1.5rem;  
+}
+.main-div p{
+    font-size: 0.63rem;
+}
+.prep-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px 20px;
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 1rem;
+}
+.prep-div h3{
+    font-size: 0.8rem;
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+}
+.prep-div ul{
+    margin-top: 0;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+}
+.prep-div li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.ing-div{
+    border-bottom: 1px solid rgb(160, 156, 156);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ing-div h2{
+    font-size: 1.4rem;
+    color: hsl(332, 51%, 32%);
+}
+.ing-div ul{
+    font-size: 0.7rem;
+    line-height: 1.36rem;
+    padding: 0 10px;
+    margin-top: 0;
+}
+.ing-div li{
+    padding-left: 10px;
+    
+}
+.inst-div{
+    border-bottom: 1px solid rgb(160, 156, 156);
+   
+}
+.inst-div h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.4rem;
+   
+}
+.inst-div ol{
+    
+    padding: 0 10px;
+}
+.inst-div li{
+    font-size: 0.6rem;
+    padding: 0;
+    padding-left: 5px;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.inst-div li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 900;
+}
+.nutr-div h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.4rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid #797777;
+    padding: 8px;
+}
+.stuff{
+    font-size: 0.7rem;
+    padding-left: 15px;
+}
+.num{
+    font-size: 0.7rem;
+    font-weight: 900; 
+    color: hsl(332, 51%, 32%);
+}
+
+@media(max-width: 440px){
+    .main-div{
+        width: 15rem;
+    }
+    body{
+        min-width: 300px;
+    }
+}
